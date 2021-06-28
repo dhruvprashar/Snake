@@ -2,10 +2,10 @@
 
 function init(){
   canvas=document.getElementById('mycanvas');
-  W=H=canvas.width=canvas.height=1000;
+  W=H=canvas.width=canvas.height=900;
 
   pen=canvas.getContext('2d');
-  cs=66;
+  cs=59.4;
   game_over=false;
   score=5;
   //image
